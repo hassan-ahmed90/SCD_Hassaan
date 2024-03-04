@@ -304,7 +304,7 @@ margin-left: 20px;
 .service {
   width: 100%;
   height: 100vh;
-  background-color: #E9F1FA;
+  background-color: #FFFFFF;
   padding: 9% 5% 0 5%;
 }
 
@@ -319,12 +319,11 @@ margin-left: 20px;
 .divs {
   width: 30%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: rgba(255, 255, 255, 0.5);
+  background-color: #EEEEEE;
   padding: 20px;
   text-align: center;
   border-radius: 24px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.8s ease-in-out;
 }
 
@@ -345,9 +344,17 @@ margin-left: 20px;
 
 .divs h1 {
   font-size: 2.6rem;
-  color: #333333;
+  color: #000000;
   text-transform: uppercase;
   margin-bottom: 10px;
+  opacity: 0.7;
+  transition: all 0.2s ease-in-out;
+}
+
+.divs:hover {
+  h1 {
+    opacity: 1;
+  }
 }
 
 .divs h1 span {
@@ -377,7 +384,7 @@ margin-left: 20px;
 .client {
   width: 100%;
   height: 100vh;
-  background-color: #E6F1F8;
+  background-color: #f5f5f5;
   padding: 5% 5% 5% 5%;
 }
 
@@ -392,7 +399,7 @@ margin-left: 20px;
 
 .client-section h1 {
   font-size: 5rem;
-  color: #333333;
+  color: #555555;
   text-transform: uppercase;
   margin-top: 100px;
 }
@@ -408,11 +415,22 @@ margin-left: 20px;
 .client-divs {
   width: 30%;
   height: 40%;
-  background-color: #D6EAF8;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease-in-out;
   margin-bottom: 130px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.div-one {
+  background-color: #CCCCCC;
+}
+
+.div-two {
+  background-color: #DDDDDD;
+}
+
+.div-three {
+  background-color: #EEEEEE;
 }
 
 .client-divs:hover {
@@ -434,7 +452,7 @@ margin-left: 20px;
 .team {
   width: 100%;
   height: 100vh;
-  background-color: #f8f9fa;
+  background-color: #FFFFFF;
   padding: 9% 5% 5% 5%;
 }
 
@@ -450,7 +468,6 @@ margin-left: 20px;
 .team-container h1 {
   font-size: 4rem;
   text-transform: uppercase;
-  color: #333333;
   margin-bottom: 20px;
 }
 
@@ -472,9 +489,9 @@ margin-left: 20px;
 .tdiv {
   width: 15%;
   height: 80%;
-  background-color: #fff;
+  background-color: #EEEEEE;
   border-top-left-radius: 100px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.8s ease;
 }
 
@@ -495,6 +512,11 @@ margin-left: 20px;
   text-align: center;
   color: #333333;
   margin-top: 20px;
+  opacity: 0.7;
+}
+
+.tdiv:hover h2 {
+  opacity: 1;
 }
 /* ************************************************
       team section styling end
