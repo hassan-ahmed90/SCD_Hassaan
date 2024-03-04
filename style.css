@@ -298,12 +298,12 @@ margin-left: 20px;
       about us section styling end
 ************************************************* */
 
-/* service section styling */
+/* ************************************************
+      sevice section styling start
+************************************************* */
 .service {
   width: 100%;
   height: 100vh;
-  /* background-color: blue; */
-  /* background-color: #E9F1FA; */
   background-color: #E9F1FA;
   padding: 9% 5% 0 5%;
 }
@@ -311,7 +311,6 @@ margin-left: 20px;
 .service-container {
   width: 100%;
   height: 95%;
-  /* background-color: red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -320,15 +319,12 @@ margin-left: 20px;
 .divs {
   width: 30%;
   height: 100%;
-  /* background-color: green; */
-  /* background-color: #FFFFFF; */
   background-color: rgba(255, 255, 255, 0.8);
   border-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
   text-align: center;
   border-radius: 24px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.15);
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);  */
   transition: transform 0.8s ease-in-out;
 }
 
@@ -371,12 +367,16 @@ margin-left: 20px;
   padding: 10px;
   text-decoration: none;
 }
+/* ************************************************
+      sevice section styling end
+************************************************* */
 
-/* client section styling start */
+/* ************************************************
+      client section styling start
+************************************************* */
 .client {
   width: 100%;
   height: 100vh;
-  /* background-color: red; */
   background-color: #E6F1F8;
   padding: 5% 5% 5% 5%;
 }
@@ -384,12 +384,10 @@ margin-left: 20px;
 .client-section {
   width: 100%;
   height: 100%;
-  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .client-section h1 {
@@ -410,7 +408,6 @@ margin-left: 20px;
 .client-divs {
   width: 30%;
   height: 40%;
-  /* background-color: yellow; */
   background-color: #D6EAF8;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -427,13 +424,16 @@ margin-left: 20px;
   height: 100%;
   border-radius: 20px;
 }
+/* ************************************************
+      clien section styling end
+************************************************* */
 
-
-/* team section styling start */
+/* ************************************************
+      team section styling start
+************************************************* */
 .team {
   width: 100%;
   height: 100vh;
-  /* background-color: red; */
   background-color: #f8f9fa;
   padding: 9% 5% 5% 5%;
 }
@@ -441,7 +441,6 @@ margin-left: 20px;
 .team-container {
   width: 100%;
   height: 100%;
-  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -463,8 +462,6 @@ margin-left: 20px;
 .team-divs {
   width: 100%;
   height: 88%;
-  /* height: auto; */
-  /* background-color: yellow; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -475,9 +472,7 @@ margin-left: 20px;
 .tdiv {
   width: 15%;
   height: 80%;
-  /* background-color: orangered; */
   background-color: #fff;
-  /* border: 1px solid white; */
   border-top-left-radius: 100px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.8s ease;
@@ -501,3 +496,6 @@ margin-left: 20px;
   color: #333333;
   margin-top: 20px;
 }
+/* ************************************************
+      team section styling end
+************************************************* */
