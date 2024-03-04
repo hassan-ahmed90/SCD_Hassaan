@@ -297,3 +297,77 @@ margin-left: 20px;
 /* ************************************************
       about us section styling end
 ************************************************* */
+
+/* service section styling */
+.service {
+  width: 100%;
+  height: 100vh;
+  /* background-color: blue; */
+  /* background-color: #E9F1FA; */
+  background-color: #E9F1FA;
+  padding: 9% 5% 0 5%;
+}
+
+.service-container {
+  width: 100%;
+  height: 95%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.divs {
+  width: 30%;
+  height: 100%;
+  /* background-color: green; */
+  /* background-color: #FFFFFF; */
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  text-align: center;
+  border-radius: 24px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);  */
+  transition: transform 0.8s ease-in-out;
+}
+
+.divs:hover {
+  transform: scale(0.9);
+}
+
+.divs img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 20px;
+  border-radius: 24px;
+}
+
+.divs img:hover {
+  transform: scale(0.95);
+}
+
+.divs h1 {
+  font-size: 2.6rem;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.divs h1 span {
+  border-bottom: 2px solid #CCCCCC;
+}
+
+.divs p {
+  font-size: 2rem;
+  color: #555555;
+  margin-bottom: 20px;
+}
+
+.divs a {
+  font-size: 2rem;
+  width: 80px;
+  height: 40px;
+  padding: 10px;
+  text-decoration: none;
+}
