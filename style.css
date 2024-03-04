@@ -58,6 +58,22 @@ html {
     color: #1abc9c;
   }
 
+  /* hamburger styling */
+.hamburger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-navbar-icon {
+    width: 30px;
+    height: 25px;
+    color: #ffffff;
+  }
+  
+  .mobile-navbar-icon[name="close-outline"] {
+    display: none;
+  }
+
   /* home section start */
 .home-section {
     width: 100%;
