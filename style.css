@@ -856,3 +856,136 @@ button[type="submit"]:hover {
 }
 
 }
+
+/* Styles for larger mobile screens (e.g., standard smartphones) */
+@media (max-width: 768px) {
+  /* navbar styling */
+  .logo {
+    font-size: 3rem;
+  }
+
+  .nav-list li a {
+    font-size: 2.2rem;
+  }
+
+  /* home section start */
+  .home-container .content {
+    height: 50%;
+  }
+  
+  .home-container .content h1, h2 {
+    font-size: 2.6rem;
+  }
+  
+  .home-container .content h1 {
+    margin-top: 50px;
+  }
+  
+  .home-container .content p {
+    font-size: 1.6rem;
+    margin-top: 20px;
+  }
+
+  .home-container button {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .home-container .image {
+    height: 50%;
+  }
+
+  /* about us section styling start */
+/* about us > about start */
+.about-us-container {
+  width: 100%;
+  height: 50%;
+  padding: 20% 5% 5% 5%;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+}
+
+.about-content p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 10px;
+}
+
+/* about us > professional-container */
+.prof-container .prof-content {
+  padding: 10px;
+}
+.prof-content h1 {
+  font-size: 1.5rem;
+  margin-top: 3px;
+}
+
+.prof-content ol li {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.prof-content ul li {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+
+/* service section styling */
+.service {
+  padding: 13% 5% 0 5%;
+}
+
+.divs {
+  padding: 10px;
+}
+
+.divs .service-content {
+  padding: 10px;
+}
+
+.divs h1 {
+  font-size: 2rem;
+}
+
+.divs p {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+
+/* client section styling start */
+.client-section h1 {
+  font-size: 3.5rem;
+  margin-top: 50px;
+}
+
+
+/* team section styling start */
+.team {
+  height: 300vh;
+}
+
+.one, .two, .three, .four {
+  margin-bottom: 30px;
+}
+
+.team-container h1 {
+  font-size: 3.5rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tdiv {
+  width: 70%;
+  height: 20%;
+}
+
+.tdiv h2 {
+  font-size: 3rem;
+}
+
+}
