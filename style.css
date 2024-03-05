@@ -58,6 +58,11 @@ transition: all 0.5s ease;
 color: #ffbf00;
 }
 
+/* Define border radius for the navbar when expanded */
+.navbar.expanded {
+  border-radius: 25px 25px 0 0;
+}
+
 /* ************************************************
                 navbar syling end
 ************************************************* */
