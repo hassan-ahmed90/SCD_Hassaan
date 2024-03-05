@@ -533,3 +533,125 @@ margin-left: 20px;
 /* ************************************************
       team section styling end
 ************************************************* */
+
+/* contact section styling start */
+.contact-us {
+  width: 100%;
+  height: 100vh;
+  /* background-color: #f8f9fa; */
+  text-align: center;
+  padding: 10%;
+  /* background-color: red; */
+}
+
+.contact-container {
+  max-width: 400px;
+  margin: 0 auto;
+  /* background-color: blue; */
+  padding: 10px 20px 10px 20px;
+}
+
+.contact-container h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.contact-container p {
+  font-size: 1.4rem;
+  /* line-height: 1.6; */
+  color: #666666;
+}
+
+#contact-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+/* Footer styling */
+.footer {
+  background-color: #333333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  /* display: flex; */
+  /* justify-content: space-around; */
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer ul li {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.made-with-heart {
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
+
+.fa-heart {
+  color: red;
+}
