@@ -58,6 +58,11 @@ transition: all 0.5s ease;
 color: #ffbf00;
 }
 
+/* Define border radius for the navbar when expanded */
+.navbar.expanded {
+  border-radius: 25px 25px 0 0;
+}
+
 /* ************************************************
                 navbar syling end
 ************************************************* */
@@ -298,20 +303,20 @@ margin-left: 20px;
       about us section styling end
 ************************************************* */
 
-/* service section styling */
+/* ************************************************
+      sevice section styling start
+************************************************* */
 .service {
   width: 100%;
   height: 100vh;
-  /* background-color: blue; */
-  /* background-color: #E9F1FA; */
-  background-color: #E9F1FA;
+  background-color: #FFFFFF;
+  background-color: #FFFFFF;
   padding: 9% 5% 0 5%;
 }
 
 .service-container {
   width: 100%;
   height: 95%;
-  /* background-color: red; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -320,15 +325,13 @@ margin-left: 20px;
 .divs {
   width: 30%;
   height: 100%;
-  /* background-color: green; */
-  /* background-color: #FFFFFF; */
-  background-color: rgba(255, 255, 255, 0.8);
-  border-color: rgba(255, 255, 255, 0.5);
+  background-color: #EEEEEE;
+  background-color: #EEEEEE;
   padding: 20px;
   text-align: center;
   border-radius: 24px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1), 0 10px 20px rgba(0, 0, 0, 0.15);
-  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);  */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
   transition: transform 0.8s ease-in-out;
 }
 
@@ -349,7 +352,8 @@ margin-left: 20px;
 
 .divs h1 {
   font-size: 2.6rem;
-  color: #333333;
+  color: #000000;
+  color: #000000;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -371,30 +375,34 @@ margin-left: 20px;
   padding: 10px;
   text-decoration: none;
 }
+/* ************************************************
+      sevice section styling end
+************************************************* */
 
-/* client section styling start */
+/* ************************************************
+      client section styling start
+************************************************* */
 .client {
   width: 100%;
   height: 100vh;
-  /* background-color: red; */
-  background-color: #E6F1F8;
+  background-color: #f5f5f5;
+  background-color: #f5f5f5;
   padding: 5% 5% 5% 5%;
 }
 
 .client-section {
   width: 100%;
   height: 100%;
-  /* background-color: blue; */
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  /* align-items: center; */
 }
 
 .client-section h1 {
   font-size: 5rem;
-  color: #333333;
+  color: #555555;
+  color: #555555;
   text-transform: uppercase;
   margin-top: 100px;
 }
@@ -410,12 +418,36 @@ margin-left: 20px;
 .client-divs {
   width: 30%;
   height: 40%;
-  /* background-color: yellow; */
-  background-color: #D6EAF8;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease-in-out;
   margin-bottom: 130px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 130px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.div-one {
+  background-color: #CCCCCC;
+}
+
+.div-two {
+  background-color: #DDDDDD;
+}
+
+.div-three {
+  background-color: #EEEEEE;
+}
+
+.div-one {
+  background-color: #CCCCCC;
+}
+
+.div-two {
+  background-color: #DDDDDD;
+}
+
+.div-three {
+  background-color: #EEEEEE;
 }
 
 .client-divs:hover {
@@ -426,4 +458,545 @@ margin-left: 20px;
   width: 100%;
   height: 100%;
   border-radius: 20px;
+}
+/* ************************************************
+      clien section styling end
+************************************************* */
+
+/* ************************************************
+      team section styling start
+************************************************* */
+.team {
+  width: 100%;
+  height: 100vh;
+  background-color: #FFFFFF;
+  padding: 9% 5% 5% 5%;
+}
+
+.team-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-container h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.team-container h1 span {
+  border-bottom: 2px solid #007bff;
+  color: #333333;
+}
+
+.team-divs {
+  width: 100%;
+  height: 88%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tdiv {
+  width: 15%;
+  height: 80%;
+  background-color: #EEEEEE;
+  border-top-left-radius: 100px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+}
+
+.tdiv:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.tdiv img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  border-top-left-radius: 100px;
+}
+
+.tdiv h2 {
+  font-size: 2.4rem;
+  text-align: center;
+  color: #333333;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.tdiv:hover h2 {
+  opacity: 1;
+}
+/* ************************************************
+      team section styling end
+************************************************* */
+
+/* ************************************************
+  contact us and the footer section styling start
+************************************************* */
+.contact-us {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  background-image: url(images/contact\ us.webp);
+  background-position: center;
+  background-size: auto;
+  padding: 10%;
+}
+
+.contact-container {
+  max-width: 400px;
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+}
+
+.contact-container h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.contact-container p {
+  font-size: 1.4rem;
+  color: #666666;
+}
+
+#contact-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+/* Footer styling */
+.footer {
+  background-color: #201658;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer ul li {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  font-size: 1.2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.made-with-heart {
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
+
+.fa-heart {
+  color: red;
+}
+/* ************************************************
+  contact us and the footer section styling end
+************************************************* */
+
+
+
+/* Styles for small tablets (e.g., portrait orientation) */
+@media (max-width: 992px) {
+  /* hamuger styling and navbar syling*/
+  .hamburger {
+    display: block;
+    border: 2px solid #ffffff;
+    line-height: 5px;
+    border-radius: 5px;
+  }
+
+  .logo {
+    font-size: 3.5rem;
+  }
+
+  .nav-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #35424a;
+    border-radius: 0 0 25px 25px;
+  }
+
+  .nav-list.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-list li{
+    margin-bottom: 20px;
+  }
+
+  .nav-list li a {
+    font-size: 2.6rem;
+  }
+
+  /* home section start */
+.home-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-container .content {
+  width: 100%;
+  height: 30%;
+  text-align: center;
+}
+
+.home-container .content h1, h2 {
+  font-size: 5rem;
+}
+
+.home-container .content h1 {
+  margin-top: 30px;
+}
+
+.home-container .content p {
+  font-size: 2.4rem;
+}
+
+.home-container .image {
+  width: 100%;
+  height: 70%;
+}
+
+.home-container .image img {
+  object-fit: contain;
+}
+
+.about-us-container .about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container .about-content {
+  width: 100%;
+  height: 48%;
+}
+
+.about-content h1 {
+  font-size: 4rem;
+}
+
+.about-content p {
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+.about-container .about-image {
+  width: 100%;
+  height: 48%;
+}
+
+/* about us > professional-container */
+.professional-container .prof-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.prof-container .prof-image {
+  width: 100%;
+  height: 48%;
+  border-radius: 25px 25px 0 0;
+}
+
+.prof-image img {
+  border-radius: 25px 25px 0 0;
+}
+
+.prof-container .prof-content {
+  width: 100%;
+  height: 48%;
+}
+
+
+/* service section styling */
+.service-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.divs {
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+
+.divs img {
+  width: 40%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.divs .service-content {
+  width: 60%;
+  height: 100%;
+  padding: 20px;
+}
+
+/* client section styling start */
+.client-section {
+  padding-bottom: 20px;
+}
+
+.client-section h1 {
+  margin-top: 50px;
+}
+
+.client-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.client-divs {
+  width: 60%;
+  height: 20%;
+  margin-bottom: 0;
+}
+
+/* team section styling start */
+.team {
+  height: 150vh;
+}
+
+.three, .four {
+  margin-bottom: 200px;
+}
+
+.team-container h1 {
+  font-size: 5rem;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.team-divs {
+  height: 94%;
+}
+
+.tdiv {
+  width: 45%;
+  height: 35%;
+}
+
+.tdiv h2 {
+  font-size: 4rem;
+}
+
+/* contact section styling start */
+.contact-us {
+  padding-top: 35%;
+}
+
+}
+
+/* Styles for larger mobile screens (e.g., standard smartphones) */
+@media (max-width: 768px) {
+  /* navbar styling */
+  .logo {
+    font-size: 3rem;
+  }
+
+  .nav-list li a {
+    font-size: 2.2rem;
+  }
+
+  /* home section start */
+  .home-container .content {
+    height: 50%;
+  }
+  
+  .home-container .content h1, h2 {
+    font-size: 2.6rem;
+  }
+  
+  .home-container .content h1 {
+    margin-top: 50px;
+  }
+  
+  .home-container .content p {
+    font-size: 1.6rem;
+    margin-top: 20px;
+  }
+
+  .home-container button {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .home-container .image {
+    height: 50%;
+  }
+
+  /* about us section styling start */
+/* about us > about start */
+.about-us-container {
+  width: 100%;
+  height: 50%;
+  padding: 20% 5% 5% 5%;
+}
+
+.about-content h1 {
+  font-size: 2.5rem;
+}
+
+.about-content p {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 10px;
+}
+
+/* about us > professional-container */
+.prof-container .prof-content {
+  padding: 10px;
+}
+.prof-content h1 {
+  font-size: 1.5rem;
+  margin-top: 3px;
+}
+
+.prof-content ol li {
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.prof-content ul li {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+
+/* service section styling */
+.service {
+  padding: 13% 5% 0 5%;
+}
+
+.divs {
+  padding: 10px;
+}
+
+.divs .service-content {
+  padding: 10px;
+}
+
+.divs h1 {
+  font-size: 2rem;
+}
+
+.divs p {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+
+/* client section styling start */
+.client-section h1 {
+  font-size: 3.5rem;
+  margin-top: 50px;
+}
+
+
+/* team section styling start */
+.team {
+  height: 300vh;
+}
+
+.one, .two, .three, .four {
+  margin-bottom: 30px;
+}
+
+.team-container h1 {
+  font-size: 3.5rem;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tdiv {
+  width: 70%;
+  height: 20%;
+}
+
+.tdiv h2 {
+  font-size: 3rem;
+}
+
 }
