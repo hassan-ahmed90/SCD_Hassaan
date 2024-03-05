@@ -347,14 +347,6 @@ margin-left: 20px;
   color: #000000;
   text-transform: uppercase;
   margin-bottom: 10px;
-  opacity: 0.7;
-  transition: all 0.2s ease-in-out;
-}
-
-.divs:hover {
-  h1 {
-    opacity: 1;
-  }
 }
 
 .divs h1 span {
